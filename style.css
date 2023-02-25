@@ -1,0 +1,76 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: : none;
+    font-family: 'Times New Roman' , Times, serif;
+}
+
+body {
+	background: linear-gradient(-45deg, #52eede, #9ae73c, #d523a8, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.contentleonie {
+    posittion: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color:white;
+    box-shadow: 0 5px 10 px rgba(0,0,0,0.1);
+    
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.label {
+    padding-left: 100px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.input{
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.Tombol{
+    margin-left: 100px;
+    margin-right: 0px;
+    background-color: rgba(red, green, blue, alpha);
+    color: rgb(0, 0, 0);
+    border-top: 0;
+    border-left:0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 10px 20px;
+    font-size: 17px;
+
+}
